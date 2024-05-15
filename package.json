@@ -1,0 +1,29 @@
+{
+  "name": "ora-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "18",
+    "build": "tsup src",
+    "start": "node dist/server.ts"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "prisma": "^5.14.0",
+    "tsup": "^8.0.2",
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "fastify": "^4.27.0",
+    "zod": "^3.23.8"
+  }
+}
